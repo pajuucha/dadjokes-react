@@ -16,7 +16,7 @@ const App = () => {
           userName={joke.name}
           text={joke.text}
           likes={joke.likes}
-          dislike={joke.dislikes}
+          dislikes={joke.dislikes}
         ></Joke>
       ))}
     </div>
